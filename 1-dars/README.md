@@ -15,5 +15,6 @@ yoki
 age = input("Yoshingizni kiriting:")
 va boshqalarni amalga oshrsa bolad
 ```
+```
 **
 
