@@ -6,3 +6,14 @@
 ## try: nma va unda qanday qo'shmchalar bor...?
 -**trybu dasturni toxtab qolasligi uchun ishlatlad yani son kiritadgan joyga so'z kiritlsa o'sha sozni tog'ri kiriting deb yana qayta aytad iltmos raqam kiriting deb va uni soragach toxtayd va try except bor u nma qlad uni ham qoshm chalari bor uni tryni ichda ishlatlad va unga ValueError va NameError va qolganlaerni bersa bo'lad ✓**
 
+## input nma ..?
+-**input da qanday va nma inputa harqanday malumot kiritsa bo'lad va uni bror bir ozgaruvch hossa qilib qoshsa ham bo'lad masalan manabunday 
+
+```python
+taxmin = input("ismingiz:")
+yoki
+age = input("Yoshingizni kiriting:")
+va boshqalarni amalga oshrsa bolad
+```
+**
+
