@@ -8,26 +8,28 @@
 # va undan qolgan qolgan oxrg daromatni hisoblaymiz
   
 
-try:
-  birinch = int(input("10 ming so'mlik : "))
-  ikki = int(input("30 ming so'mlik : "))
-  uch = int(input("45 ming so'mlik : "))
 
-  birinch_uchun = 10000
-  ikkinch_uchn = 30000
-  uchinch = 45000
+birinch = int(input("10 ming so'mlik : "))
+ikki = int(input("30 ming so'mlik : "))
+uch = int(input("45 ming so'mlik : "))
 
-  jami = birinch*birinch_uchun + ikki * ikkinch_uchn + uch * uchinch
-  print("Kassa:" + str(jami))
+birinch_uchun = 10000
+ikkinch_uchn = 30000
+uchinch = 45000
 
-  foiz = jami*0.5
-  print("daromad: " + str(foiz))
-  
-  sof = foiz *0.12
-  print("Sof foyda: " + str(sof))
-except ValueError:
-  print("Iltmos kuting tizim nosozzlikka uchrad")
+jami = birinch + birinch_uchun + ikki + ikkinch_uchn + uch + uchinch
 
+daromad = jami*5
 
+if jami > 1000000:
+  soliq = daromad * 0.34
+else:
+  soliq = daromad * 0.12
+
+sof = daromad -soliq
+
+print("asosi kassa:" + str(jami))
+print("kassani yarmi:" + str(daromad))
+print(" sof daromad" + str(sof))
 
 
